@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.int{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.img p{
+    font-size: 20px;
+    margin-top: 5px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    margin-bottom: 170px;
+
+}
+
+.logo img{
+    width: 130px;
+    height: 130px;
+}
+
+.cima{
+    margin-top: 30px;
+    justify-content: space-around;
+    height: 300px;
+    width: 1000px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px 3px hsl(210, 51%, 83%);
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.frase{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    
+}
+
+.frase p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-right: 20    px;
+}
+
+.img img{
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.15);
+}
+
+.cen{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.dado{
+    display: flex;
+    width: 1200px;
+    justify-content: center ;
+    flex-wrap: wrap;
+}
+
+.infon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 300px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: #5999d9;
+}
+
+.infon p{
+    color: white;
+    font-size: 18.5px;
+}
+
+.infon:hover{
+    background-color:#4388CC;
+    font-size: 40px;
+}
+

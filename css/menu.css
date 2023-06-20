@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+   .prin-menu{
+       background-color: #4388CC;
+       font-size: 1.4rem;
+       height: 60px;
+   }
+
+
+
+   .cad{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 32px;
+    width: 125px;
+    margin-right: 20px;
+    background-color: #bed4ea;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+   .menu i{
+    color: #bed4ea;
+    margin-top: px;
+   }
+
+   .menu{
+       position: absolute;
+       width: 50px;
+       height: 55px;
+   }
+
+.prin{
+    display: flex;
+}
+
+.ico-menu{
+      margin-left: 20px;
+      color: #0a0c0a;
+      margin: 15px;
+}
+
+.sub-menu{
+     width: 200px;
+     display: none;
+     position: absolute;
+     background-color: #4388CC;
+}
+
+.menu:hover  .sub-menu{
+    display: block;
+}
+
+ul{
+    margin-top: 40px;
+    list-style: none;
+}
+
+.li{
+    display: flex;
+    width: 100%;
+    margin-top: 28px;
+   color: #bed4ea;
+   align-items: center;
+   justify-content: space-around;
+   font-size: 20px;
+}
+
+
+
+.texto_menu:hover{
+   background-color: #f0f0f0;
+   color: #4388CC;
+}
+
+.texto_menu,.texto_menuh a{
+   font-size: 17px;
+}
+
+.texto_menu{
+    background-coloR:  #accbea;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 3px;
+   width: 120px;
+   height: 30px;
+   font-family:'Courier New', Courier, monospace;
+   box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.15);
+}   
+
+.texto_menuh{
+   font-family:'Courier New', Courier, monospace;
+   background-coloR:  #b3cde8;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 3px;
+   width: 120px;
+   height: 30px;
+   box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.15);
+
+}
+
+.o{
+   margin-top: 70px;
+}
+
+.ajuda{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 167px;
+
+}
+
+.ajuda i{
+   font-size: 40px;
+   color:  #bed4ea;
+   justify-content: center;
+   display: flex;
+}
+
+.texto_ajuda p{
+   font-size: 15px;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+.u{
+   display: flex;
+   justify-content: center;
+   
+   
+}
+
+.entrar_em_contato{     
+   align-items: center;
+   justify-content: center;
+   background-color:  #b9d6f4;
+   margin-bottom: 71px;
+   display: flex;
+   font-size: 13px;
+   text-decoration: none;
+   border-radius: 5px;
+   width: 150px;
+   height: 32px;
+   box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.15);
+}
+
+.entrar_em_contato a{
+    color: #4388CC;
+}
+
+a{
+   color: #0a0c0a;
+    text-decoration: none;
+
+}

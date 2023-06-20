@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #BED4EA;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.inicio{
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    margin-right: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: #4d8cca; 
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.102);
+}
+
+.inicio i{
+    margin-left: 9px;
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+
+}
+
+a{
+    text-decoration: none;
+}
+.inicio p{
+    font-size: 16px;
+    color: white;
+    
+}
+
+.fundo{
+    width: 400px;
+    height: 400px;
+    background-color: #4388CC;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+p{
+    font-size: 25px;
+    color: #BED4EA;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+
+}
+form{
+    margin-top: 15px;
+    color: #BED4EA;
+    height: 30px;
+}
+
+
+.formulario input{
+    width: 150px;
+    height: 25px;
+}
+
+.icone input{
+    width: 20px;
+    height: 15px;
+}
+
+.robo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.texto_robo{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 2px;
+}
+
+.confirma{
+    display: flex;
+    justify-content: center;
+}
+.confirma input{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    background-color:white;
+}
+
+.robozin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 30px;
+    background-color: #BED4EA;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.15);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+}
+
+.confirma input:hover{
+    background-color: #BED4EA;
+}
